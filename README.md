@@ -5,7 +5,7 @@
 ## 使用安装包
 
 1. 安装 Node.js，在普通 PowerShell 中运行 `npm install -g @tencent-qqmail/agently-cli`。
-2. 解压项目根目录下的 `release/Xiaofeiyu-Windows-x64-preview.zip`。
+2. 到 [GitHub Releases](https://github.com/Chenjiangxiaoyu/XIAOYU2/releases/tag/v0.1.0-preview) 下载 `Xiaofeiyu-Windows-x64-preview.zip`，然后解压。
 3. 双击解压目录中的 **安装小肥鱼.cmd**。安装完成后，桌面会出现“小肥鱼”快捷方式。
 4. 在这台电脑上完成 Agent Mail 的 OAuth 授权，以及 DSH 的账号登录。两项授权都需要使用者自己完成。
 5. 双击桌面快捷方式启动。出现悬浮邮件图标后，点击图标打开窗口；点击刷新按钮可立即同步邮件。
@@ -29,4 +29,5 @@ agently-cli.cmd auth login
 ## 卸载
 
 双击解压目录或安装目录中的 **卸载小肥鱼.cmd**，按提示清理本安装器创建的程序目录和本地设置。共享的 Agent Mail／DSH 授权及云端邮件不会被删除。
+
 
